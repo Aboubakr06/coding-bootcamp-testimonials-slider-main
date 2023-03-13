@@ -7,25 +7,63 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<main class="font-Inter text-[2rem] text-[var(--primary-blue)] bg-[url('/images/pattern-curve.svg')] bg-contain bg-no-repeat bg-left-bottom relative p-8 min-h-[100vh] lg:bg-[50%,0]">
 
-  “ I’ve been interested in coding for a while but never taken the jump, until now. 
-  I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
-  excited about the future. ”
+  <img class="absolute z-0 inset-x-[5%] top-8 w-[90%] lg:w-[50%] lg:left-[50%]" src="images/pattern-bg.svg" alt="" aria-hidden="true">
 
-  Tanya Sinclair
-  UX Engineer
+  <section class="z-10 grid items-center gap-12 pt-8 text-center max-lg:text-lg lg:grid-cols-2 lg:grid-rows-1 lg:text-start lg:p-16">  
 
-  “ If you want to lay the best foundation possible I’d recommend taking this course. 
+    <div class="px-4 flex items-center justify-center relative lg:col-start-2">
+      <img class="one w-[85%] rounded-2xl shadow-md shadow-[var(--primary-blue)]" src="images/image-tanya.jpg" alt="Tanya avatar">
+      <img class="two hidden w-[85%] rounded-2xl shadow-md shadow-[var(--primary-blue)]" src="images/image-john.jpg" alt="Jhon avatar">
+      <span class="bg-white absolute -bottom-4 rounded-full shadow-lg shadow-[var(--primary-blue)] p-4 flex items-center gap-8">
+        <a class="left" href="#" aria-label="prev"><img src="images/icon-prev.svg" alt="" aria-hidden="true"></a>
+        <a class="right" href="#" aria-label="next"><img src="images/icon-next.svg" alt="" aria-hidden="true"></a>
+      </span>          
+    </div>
+
+    <div class="one grid gap-8 bg-[url('/images/pattern-quotes.svg')] bg-no-repeat bg-[center_top] pt-8 pb-12 lg:row-start-1">
+      <p>
+
+        “ I’ve been interested in coding for a while but never taken the jump, until now. 
+        I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
+        excited about the future. ”
+
+      </p>
+
+      <p class="font-semibold text-xl text-[var(--primary-grey)]">
+        <em class="max-lg:block not-italic font-bold text-[var(--primary-blue)]">
+        Tanya Sinclair          
+        </em>
+        UX Engineer
+      </p>
+    </div>
+    
+    <div class="two hidden gap-8 bg-[url('/images/pattern-quotes.svg')] bg-no-repeat bg-[center_top] pt-8 pb-12 lg:row-start-1">
+      <p>
+
+        “ If you want to lay the best foundation possible I’d recommend taking this course. 
   The depth the instructors go into is incredible. I now feel so confident about 
   starting up as a professional developer. ”
 
-  John Tarkpor
-  Junior Front-end Developer
-  
+      </p>
+
+      <p class="font-semibold text-xl text-[var(--primary-grey)]">
+        <em class="max-lg:block not-italic font-bold text-[var(--primary-blue)]">
+        John Tarkpor
+      </em>
+           Junior Front-end Developer
+      </p>
+    </div>       
+  </section> 
+</main>   
   <script src="script.js"></script>
 </body>
 </html>
