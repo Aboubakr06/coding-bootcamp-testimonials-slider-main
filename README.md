@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/)
+- Solution URL: (https://www.frontendmentor.io/solutions/coding-bootcamp-testimonials-slider-with-tailwindcss-o5jks9TSio)
 - Live Site URL: (https://lighthearted-travesseiro-56f1fa.netlify.app/)
 
 ## My process
